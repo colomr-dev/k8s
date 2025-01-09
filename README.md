@@ -1,61 +1,83 @@
-# Kubernetes Learning Path 🚀
+# 🚀 Aprendizaje de Kubernetes (K8s)
 
-This repository is dedicated to learning Kubernetes, starting with local development using Minikube and progressing to production-grade deployments with Google Kubernetes Engine (GKE).
+Este repositorio está dedicado a mi viaje de aprendizaje de Kubernetes, enfocándome en comprender los conceptos fundamentales a través de la práctica con Minikube antes de trasladar estos conocimientos a Google Kubernetes Engine (GKE).
 
-## Learning Path Overview 📚
+## 🎯 Objetivos de Aprendizaje
 
-### Level 1: Basics (Minikube) 🌱
-- [ ] Install Minikube and kubectl
-- [ ] Create first pod
-- [ ] Deploy simple application
-- [ ] Understand basic kubectl commands
-- [ ] Work with namespaces
+- Dominar los conceptos básicos de Kubernetes
+- Ganar experiencia práctica con Minikube
+- Comprender la arquitectura de K8s
+- Prepararse para implementaciones en GKE
 
-### Level 2: Core Concepts 🔧
-- [ ] Deployments and ReplicaSets
-- [ ] Services (ClusterIP, NodePort, LoadBalancer)
-- [ ] ConfigMaps and Secrets
-- [ ] Persistent Volumes
-- [ ] StatefulSets
+## 📚 Ruta de Aprendizaje
 
-### Level 3: Advanced Topics 🎯
-- [ ] Ingress Controllers
-- [ ] Custom Resource Definitions
-- [ ] RBAC and Security
-- [ ] Helm Charts
-- [ ] Monitoring with Prometheus
+### Nivel 1: Fundamentos
+- Instalación de Minikube
+- Conceptos básicos de K8s
+- Primeros comandos kubectl
 
-### Level 4: Production (GKE) ☁️
-- [ ] GKE cluster setup
-- [ ] Cloud Load Balancing
-- [ ] Cloud IAM integration
-- [ ] Autoscaling
-- [ ] Production best practices
+### Nivel 2: Pods y Deployments
+- Creación y gestión de pods
+- Implementación de deployments
+- ReplicaSets y escalado
 
-## Local Setup Instructions 💻
+### Nivel 3: Servicios y Networking
+- Tipos de servicios
+- Configuración de networking
+- Reglas de ingress
 
-1. Install Minikube:
+### Nivel 4: Almacenamiento y Configuración
+- Volumes
+- ConfigMaps
+- Secrets
+
+### Nivel 5: Observabilidad
+- Monitoring
+- Logging
+- Health checks
+
+### Nivel 6: Avanzado
+- Service mesh con Istio
+- Sidecar patterns
+- Autoscaling
+
+## 💪 Retos Prácticos
+
+1. Desplegar una aplicación web simple
+2. Implementar un balanceador de carga
+3. Configurar auto-escalado
+4. Establecer reglas de ingress
+5. Integrar Istio
+
+## 🚦 Comenzando
+
+1. Instalar Minikube
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-2. Start cluster:
+2. Iniciar cluster
 ```bash
 minikube start
 ```
 
-3. Verify installation:
+3. Verificar instalación
 ```bash
 kubectl get nodes
 ```
 
-## Progress Tracking ✅
-- Create an issue for each topic you're working on
-- Use PR's to document learnings
-- Tag completed items in this README
+## 📖 Recursos y Referencias
 
-## Resources 📖
-- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Documentación oficial de Kubernetes](https://kubernetes.io/docs/home/)
+- [Minikube Getting Started](https://minikube.sigs.k8s.io/docs/start/)
 - [GKE Documentation](https://cloud.google.com/kubernetes-engine/docs)
-- [Kubernetes Patterns](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/)
+
+## 📊 Seguimiento de Progreso
+
+- [ ] Nivel 1 completado
+- [ ] Nivel 2 completado
+- [ ] Nivel 3 completado
+- [ ] Nivel 4 completado
+- [ ] Nivel 5 completado
+- [ ] Nivel 6 completado
